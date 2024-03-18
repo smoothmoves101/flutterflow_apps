@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "100117886911",
+    "project_id": "prayer-daily-y94ga1",
+    "storage_bucket": "prayer-daily-y94ga1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:100117886911:android:c1fbc068ce3d44f267530a",
+        "android_client_info": {
+          "package_name": "com.mycompany.prayerdaily"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAG72ad-PcuAkqPdJzszpaEALfvd_TeN6E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:100117886911:android:a89f7c1cc0680e4e67530a",
+        "android_client_info": {
+          "package_name": "com.mycompany.theartofcreation"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAG72ad-PcuAkqPdJzszpaEALfvd_TeN6E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:100117886911:android:827944724e58c1a767530a",
+        "android_client_info": {
+          "package_name": "com.mycompany.walkerjanitorialandlandscapingservices"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAG72ad-PcuAkqPdJzszpaEALfvd_TeN6E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:100117886911:android:06352375a8da781867530a",
+        "android_client_info": {
+          "package_name": "com.mycompany.walkerjanitorialandlandscapingservicesbookingapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAG72ad-PcuAkqPdJzszpaEALfvd_TeN6E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
