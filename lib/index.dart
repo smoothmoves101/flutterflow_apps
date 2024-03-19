@@ -1,6 +1,5 @@
 // Export pages
 export '/getting_started/getting_started_widget.dart' show GettingStartedWidget;
-export '/signup/signup_widget.dart' show SignupWidget;
 export '/homepage/homepage_widget.dart' show HomepageWidget;
 export '/scriptures/scriptures_widget.dart' show ScripturesWidget;
 export '/scriptures7/scriptures7_widget.dart' show Scriptures7Widget;

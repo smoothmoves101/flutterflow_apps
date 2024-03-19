@@ -86,11 +86,6 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => const GettingStartedWidget(),
         ),
         FFRoute(
-          name: 'signup',
-          path: '/signup',
-          builder: (context, params) => const SignupWidget(),
-        ),
-        FFRoute(
           name: 'homepage',
           path: '/homepage',
           builder: (context, params) => params.isEmpty

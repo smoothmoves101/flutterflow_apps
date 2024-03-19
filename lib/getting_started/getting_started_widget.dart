@@ -71,7 +71,7 @@ class _GettingStartedWidgetState extends State<GettingStartedWidget> {
                     // getstarted
 
                     context.pushNamed(
-                      'signup',
+                      'homepage',
                       extra: <String, dynamic>{
                         kTransitionInfoKey: const TransitionInfo(
                           hasTransition: true,
