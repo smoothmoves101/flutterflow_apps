@@ -1,16 +1,18 @@
-workflows:
-  android:
-    name: Android Build
-    script:
-      - flutter pub get
-      - flutter build apk --release
-    artifacts:
-      - build/app/outputs/flutter-apk/app-release.apk
-
-  ios:
-    name: iOS Build
-    script:
-      - flutter pub get
-      - flutter build ios --release --no-codesign
-    artifacts:
-      - build/ios/ipa/*.ipa
+ scripts:
+    - name: Build the .app
+      script: | 
+        # build using workspace
+        xcodebuild build \
+          -workspace "MyXcodeWorkspace.xcworkspace" \
+          -scheme "MyScheme" \
+          CODE_SIGN_IDENTITY="" \
+          CODE_SIGNING_REQUIRED=NO \
+          CODE_SIGNING_ALLOWED=NO
+        #
+        # build using project
+        # xcodebuild build \
+        #    -project ""MyXcodeProject.xcodeproj" \
+        #    -scheme "MyScheme" \
+        #    CODE_SIGN_IDENTITY="" \
+        #    CODE_SIGNING_REQUIRED=NO \
+        #    CODE_SIGNING_ALLOWED=NO
