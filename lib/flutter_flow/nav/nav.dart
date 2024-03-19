@@ -274,11 +274,6 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => const Day25Widget(),
         ),
         FFRoute(
-          name: 'Day26',
-          path: '/day26',
-          builder: (context, params) => const Day26Widget(),
-        ),
-        FFRoute(
           name: 'Day27',
           path: '/day27',
           builder: (context, params) => const Day27Widget(),
@@ -297,6 +292,11 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: 'Day30',
           path: '/day30',
           builder: (context, params) => const Day30Widget(),
+        ),
+        FFRoute(
+          name: 'Day26',
+          path: '/day26',
+          builder: (context, params) => const Day26Widget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );

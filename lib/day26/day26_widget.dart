@@ -2,7 +2,6 @@ import '/flutter_flow/flutter_flow_icon_button.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/scheduler.dart';
 import 'day26_model.dart';
 export 'day26_model.dart';
 
@@ -22,20 +21,6 @@ class _Day26WidgetState extends State<Day26Widget> {
   void initState() {
     super.initState();
     _model = createModel(context, () => Day26Model());
-
-    // On page load action.
-    SchedulerBinding.instance.addPostFrameCallback((_) async {
-      context.pushNamed(
-        'Day27',
-        extra: <String, dynamic>{
-          kTransitionInfoKey: const TransitionInfo(
-            hasTransition: true,
-            transitionType: PageTransitionType.fade,
-            duration: Duration(milliseconds: 0),
-          ),
-        },
-      );
-    });
 
     WidgetsBinding.instance.addPostFrameCallback((_) => setState(() {}));
   }
@@ -68,10 +53,8 @@ class _Day26WidgetState extends State<Day26Widget> {
               size: 30.0,
             ),
             onPressed: () async {
-              context.pushNamed('scriptures');
-
               context.pushNamed(
-                'scriptures2',
+                'scriptures7',
                 extra: <String, dynamic>{
                   kTransitionInfoKey: const TransitionInfo(
                     hasTransition: true,
@@ -80,8 +63,6 @@ class _Day26WidgetState extends State<Day26Widget> {
                   ),
                 },
               );
-
-              context.pushNamed('scriptures3');
             },
           ),
           title: Text(
@@ -110,7 +91,7 @@ class _Day26WidgetState extends State<Day26Widget> {
                 ),
               ),
               Text(
-                'Day 26\nPsalm 51:10 - \"Create in me a clean heart, O God, and renew a steadfast spirit within me.\"\n',
+                'Day 26\nPsalm 51:10 - \"Create in me a clean heart, O God, and renew a steadfast spirit within me.\"',
                 style: FlutterFlowTheme.of(context).bodyMedium,
               ),
             ],

@@ -54,7 +54,7 @@ class _Day20WidgetState extends State<Day20Widget> {
             ),
             onPressed: () async {
               context.pushNamed(
-                'Day20',
+                'scriptures5',
                 extra: <String, dynamic>{
                   kTransitionInfoKey: const TransitionInfo(
                     hasTransition: true,
